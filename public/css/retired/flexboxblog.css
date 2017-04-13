@@ -1,0 +1,184 @@
+html, body {
+  height: 100%;
+}
+
+body{
+  font-family: 'Helvetica Neue','Avenir Next', 'HelveticaNeue-Light', Helvetica, Arial, sans-serif;
+
+
+}
+
+.container{
+  display: flex;
+  min-height: 100%;
+  flex-direction: column;
+  align-items: center;/*typically means centered from top to bottom. Here it means centered from left to right.*/
+  width:100%;
+
+}
+
+.signature_container{
+  display:flex;
+  width:85%;
+  height: 100px;
+  align-items: center;/*centers signature and eye from top to bottom*/
+  justify-content: center;
+  
+}
+
+.sig_image{
+  max-width:80%;
+  max-height: 100%;
+  padding-top: 10px;
+  padding-left: 30px;
+
+}
+
+
+
+header{
+  display:flex;
+  justify-content: space-between;
+  background:black;
+  align-items: center;/*centers item from top to bottom*/
+  width:100%;
+}
+
+ul{
+  list-style: none;
+  margin: 0;
+}
+
+.left-header-links{
+  display:flex;
+  justify-content: space-between;
+}
+
+li{
+
+  padding: 1em;
+}
+
+.toplistelements{
+  color:#898989;
+
+
+}
+
+main{
+  display:flex;
+  background:purple;
+}
+
+footer{
+  background:yellow;
+  margin-top: auto;
+  width:100%;
+}
+
+aside{
+  margin-right: 40px;
+}
+
+h3{
+  margin:0;
+  padding:0;
+  color: #898989;
+
+}
+
+.badge {
+  display: inline-block;
+  min-width: 10px;
+  padding: 3px 7px;
+  font-size: 12px;
+  font-weight: bold;
+  line-height: 1;
+  color: #fff;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  background-color: #777;
+  border-radius: 10px;
+}
+
+/*.kmlogo{
+  font-size: 1.2em;
+  margin: 0.25em;
+}*/
+
+
+#outer-circle {
+   background: #385a94;
+   border-radius: 50%;
+   height: 20px;
+   width: 20px;
+   position: relative;
+   /* 
+    Child elements with absolute positioning will be 
+    positioned relative to this div 
+   */
+ }
+
+ #inner-circle {
+   position: absolute;
+   background: #a9aaab;
+   border-radius: 50%;
+   height: 12px;
+   width: 12px;
+   /*
+    Put top edge and left edge in the center
+   */
+   top: 50%;
+   left: 50%;
+   margin: -6px 0px 0px -6px;
+   /* 
+    Offset the position correctly with
+    minus half of the width and minus half of the height 
+   */
+ }
+
+.blog_post_description{
+  display:flex;
+  width: 90%;
+}
+
+.blog_post_description_text{
+margin-left: 10px;
+}
+
+.blog_post_description_text h3{
+color:black;
+}
+
+.blog_post_description_text h4{
+  margin-top: 0.25em;
+color:#898989;
+}
+
+
+
+footer{
+  display:flex;
+  justify-content: space-around;
+  background:black;
+
+}
+
+.footerlinks{
+  list-style-type: none;
+}
+
+.footerlinks a{
+text-decoration: none;
+color:#898989;
+
+}
+
+.up_left_km{
+  padding: 0.5em;
+}
+
+.up_right_link{
+  padding: 0.5em;
+}
